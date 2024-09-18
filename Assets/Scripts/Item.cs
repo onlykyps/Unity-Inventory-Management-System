@@ -10,12 +10,12 @@ public class Item
    public Sprite icon;
    public Dictionary<string, int> stats = new Dictionary<string, int>();
 
-   public Item(int id, string title, string description, Sprite icon, Dictionary<string, int> stats)
+   public Item(int id, string title, string description, Dictionary<string, int> stats)
    {
       this.id = id;
       this.title = title;
       this.description = description;
-      this.icon = icon;
+      // this.icon = icon;
       this.stats = stats;
    }
 
@@ -24,7 +24,7 @@ public class Item
       this.id = item.id;
       this.title = item.title;
       this.description = item.description;
-      this.icon = item.icon;
+      // this.icon = item.icon;
       this.stats = item.stats;
    }
 

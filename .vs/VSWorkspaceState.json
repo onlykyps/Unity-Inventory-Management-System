@@ -2,6 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Assets",
+    "\\Assets\\Resources",
+    "\\Assets\\Scenes",
     "\\Assets\\Scripts"
   ],
   "PreviewInSolutionExplorer": false
