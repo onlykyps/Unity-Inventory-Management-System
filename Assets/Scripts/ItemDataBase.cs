@@ -3,9 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
+
+
 public class ItemDataBase : MonoBehaviour
 {
    public List<Item> items = new List<Item>();
+   public Item item = new Item();
+
+   void Awake()
+   {
+      BuildItemDatabase();
+   }
+
+   public Item GetItem(int id)
+   {
+      return items.Find(item => item.id == id);
+   }
 
    void BuildItemDatabase()
    {
